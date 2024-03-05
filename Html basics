@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen's Website</title>
+</head>
+<body>
+    <hr>
+    <h1> This is a heading</h1>
+    <p> This is a paragraph</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique quisquam perferendis ducimus, voluptatum dignissimos debitis provident perspiciatis. Provident asperiores voluptate obcaecati corporis voluptatibus nihil sed quis debitis ipsam ipsum suscipit, perferendis doloribus exercitationem quas.</p>
+    
+    <!-- for adding the link or references -->
+
+    <a href="https://google.com">Search with Google</a>
+    <p>lorem300</p>
+   
+    <hr>
+    
+    <!-- image tag -->
+
+     <!-- <img src="https://media.istockphoto.com/id/1419410282/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays.jpg?s=2048x2048&w=is&k=20&c=t9_zg20wVbrBoGn0tw__1fFq4ykeKs15TQQ3x-ehVC0=" alt="Error in loading the image...">  -->
+
+    <!-- bold italic and underline tags -->
+    <hr>
+
+    <b>This is Bold tag</b>
+    <br>
+    <i>This is in italics</i>
+    <br>
+    <u>This line should be underlined</u>
+    
+    <hr>
+    <!-- subscripts and superscripts -->
+    
+    <p>C + O <sub>2</sub> = CO <sub>2</sub></p>
+
+    <!-- Creating page layout -->
+    <header> 
+        This is header...
+    </header>
+
+    <main>
+       <section>
+        <div>
+            <h1>Why only Defence?</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur a, nostrum aliquam quam magnam fugit, alias dolor corrupti maxime vel eum? Incidunt error ea culpa iste quia neque dolorum quod?</p>
+        </div>
+
+            <div>
+        <h1>Why only icecream?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem pariatur dolores voluptates ex porro. Expedita.</p>
+            </div>
+            
+            <hr>
+            <div>
+                It is an example of a block element.
+            </div>
+            
+            <hr>
+
+            <!-- span is an example of inline element -->
+
+            <span>
+                I am first span tag...
+            </span>
+
+            <span>
+                I am second span tag...
+            </span>
+            <hr>
+
+       </section>
+    </main> 
+
+    <footer>
+        This is content of footer...
+    </footer>   
+    <a href="https://google.com" target ="_main"><img src="https://media.istockphoto.com/id/1419410282/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays.jpg?s=2048x2048&w=is&k=20&c=t9_zg20wVbrBoGn0tw__1fFq4ykeKs15TQQ3x-ehVC0=" alt="Error in loading the image." width="150px"></a>
+     
+
+    <!-- Lists,tables and Forms -->
+
+    <ol type="I">
+        <!-- use types like circle or square with css only and not with html  -->
+
+        <li> Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contanct</li>
+    </ol>
+
+    <!-- table tags -->
+    <div>
+        <caption> Subject and respective marks </caption>
+        <table>
+            <thead>
+            <tr>
+                <th> S.No</th>
+                <th>Subject </th>
+                <th colspan="3"> Marks</th>
+                
+                <!-- colspan used to cover multiple rows in single manner -->
+            </tr>
+        </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Maths</td>
+                <td> 100</td>
+            </tbody>
+            </tr>
+        </table>
+    </div>
+
+    <!-- forms -->
+    
+    <div>
+        <h1>Id card form</h1>
+        <form action="form.php"></form>
+        <input type="text" placeholder="Enter your Name">
+        <br>
+        <label for="Sectionida">
+
+        <input type="radio"  value ="Section a" name="Section" id="Section.ida">Section A
+
+         </label>
+
+         <label for="Sectionidb">
+            <input type="radio"  value ="Section b" name="Section" id="Section.idb">Section B
+         </label>
+
+         <!-- checkbox -->
+         <br>
+         <label for="Id card "> 
+            Want Id card?
+         <input type="checkbox" name="Want Id card?" id="Id card" class="red" >
+        </label>
+        <br>
+        <!-- textarea  -->
+        <textarea name="Explain" id="Explain" cols="30" rows="10" placeholder="Explain why you want this Id card?"></textarea>
+
+        <!-- select element  -->
+      
+        <select name="Car" id="car">
+            
+            <option value="no car">Select your car</option>
+            <option value="omni"> Omni</option>
+            <option value="omni">Omni2</option>
+        </select>
+    </div>
+<br>
+<hr>
+    <div>
+        <!-- for embedding vedio's -->
+        <title>Vedio from Internet </title>
+        <br>
+       <iframe src="https://www.bing.com" frameborder="0" width="900px"></iframe>
+       <vedio src =""> Error</vedio>
+    </div>
+
+</body>
+</html>
